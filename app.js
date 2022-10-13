@@ -19,6 +19,7 @@ app.get("/", PersonController.findPerson)
 app.get("/person/:slug", PersonController.detailPerson)
 app.post("/create-person", PersonController.createPerson)
 app.delete("/person/:slug", PersonController.deletePerson)
+app.get("/masuk/:slug", PersonController.absenMasuk)
 
 
 // Listen for Running on localhost
